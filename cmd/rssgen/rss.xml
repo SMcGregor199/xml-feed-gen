@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>shaynemcgregor.dev</title>
+    <link>https://shaynemcgregor.dev</link>
+    <description>Posts from shaynemcgregor.dev</description>
+    <atom:link href="https://shaynemcgregor.dev/rss.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 09 Feb 2026 21:47:44 +0000</lastBuildDate>
+    <language>en-us</language>
+    <ttl>60</ttl>
+    <item>
+      <title>When Speed Became the Right Tradeoff</title>
+      <link>https://shaynemcgregor.dev/when-speed-became-the-right-tradeoff</link>
+      <description>On making a fast decision under pressure—and living with it responsibly</description>
+      <guid isPermaLink="false">2e40721d-8085-8043-b11d-fee776963643</guid>
+      <pubDate>Sat, 10 Jan 2026 13:58:00 +0000</pubDate>
+      <enclosure url="https://shaynemcgregordev-be.netlify.app/.netlify/functions/notion-image?blockId=2e40721d-8085-8043-b11d-fee776963643" type="image/webp" />
+    </item>
+    <item>
+      <title>When Reliability Became a Customer Satisfaction Problem</title>
+      <link>https://shaynemcgregor.dev/when-reliability-became-a-customer-satisfaction-problem</link>
+      <description>On a moment when fixing a system changed how customers experienced the product</description>
+      <guid isPermaLink="false">2e40721d-8085-8089-8269-dcc4d47f52f0</guid>
+      <pubDate>Sat, 10 Jan 2026 13:12:00 +0000</pubDate>
+      <enclosure url="https://shaynemcgregordev-be.netlify.app/.netlify/functions/notion-image?blockId=2e40721d-8085-8089-8269-dcc4d47f52f0" type="image/webp" />
+    </item>
+    <item>
+      <title>Building a Serverless Image Optimization System</title>
+      <link>https://shaynemcgregor.dev/building-a-serverless-image-optimization-system</link>
+      <description>How I streamlined image delivery from Notion’s API using Node, Sharp, and Netlify</description>
+      <guid isPermaLink="false">2ab0721d-8085-80b3-8010-ece8b04259dc</guid>
+      <pubDate>Fri, 14 Nov 2025 19:35:00 +0000</pubDate>
+      <enclosure url="https://shaynemcgregordev-be.netlify.app/.netlify/functions/notion-image?blockId=2ab0721d-8085-80b3-8010-ece8b04259dc" type="image/webp" />
+    </item>
+    <item>
+      <title>The Ellison Companion</title>
+      <link>https://shaynemcgregor.dev/the-ellison-companion</link>
+      <description> Time For A Refresh</description>
+      <guid isPermaLink="false">2a70721d-8085-8095-a1d0-d4c3f695f005</guid>
+      <pubDate>Mon, 10 Nov 2025 20:32:00 +0000</pubDate>
+      <enclosure url="https://shaynemcgregordev-be.netlify.app/.netlify/functions/notion-image?blockId=2a70721d-8085-8095-a1d0-d4c3f695f005" type="image/webp" />
+    </item>
+    <item>
+      <title>Introducing shaynemcgregor.dev</title>
+      <link>https://shaynemcgregor.dev/introducing-shaynemcgregor.dev</link>
+      <description>Building, shipping, and learning in public</description>
+      <guid isPermaLink="false">2a20721d-8085-80bb-bb46-d19cb88c85d2</guid>
+      <pubDate>Wed, 05 Nov 2025 16:48:00 +0000</pubDate>
+      <enclosure url="https://shaynemcgregordev-be.netlify.app/.netlify/functions/notion-image?blockId=2a20721d-8085-80bb-bb46-d19cb88c85d2" type="image/webp" />
+    </item>
+    <item>
+      <title>The Academic Mistrust of AI</title>
+      <link>https://shaynemcgregor.dev/the-academic-mistrust-of-ai</link>
+      <description>On fear, trust, and the uneasy intersection between learning and automation</description>
+      <guid isPermaLink="false">29b0721d-8085-801e-ac1f-db73b8892b05</guid>
+      <pubDate>Wed, 29 Oct 2025 13:15:00 +0000</pubDate>
+      <enclosure url="https://shaynemcgregordev-be.netlify.app/.netlify/functions/notion-image?blockId=29b0721d-8085-801e-ac1f-db73b8892b05" type="image/webp" />
+    </item>
+    <item>
+      <title>What Makes an EdTech Developer</title>
+      <link>https://shaynemcgregor.dev/what-makes-an-edtech-developer</link>
+      <description>The bridge between imagination, systems, and belief.</description>
+      <guid isPermaLink="false">29a0721d-8085-80c0-b4a1-e3f206608d5e</guid>
+      <pubDate>Tue, 28 Oct 2025 15:18:00 +0000</pubDate>
+      <enclosure url="https://shaynemcgregordev-be.netlify.app/.netlify/functions/notion-image?blockId=29a0721d-8085-80c0-b4a1-e3f206608d5e" type="image/webp" />
+    </item>
+    <item>
+      <title>Why EdTech Is Right for Me</title>
+      <link>https://shaynemcgregor.dev/why-edtech-is-right-for-me</link>
+      <description>Bridging my Ph.D., university experience, and technical skill set in service of learning innovation</description>
+      <guid isPermaLink="false">2990721d-8085-8058-8854-c85568a0d1a0</guid>
+      <pubDate>Mon, 27 Oct 2025 18:15:00 +0000</pubDate>
+      <enclosure url="https://shaynemcgregordev-be.netlify.app/.netlify/functions/notion-image?blockId=2990721d-8085-8058-8854-c85568a0d1a0" type="image/webp" />
+    </item>
+    <item>
+      <title>When Engineers Forget to Teach</title>
+      <link>https://shaynemcgregor.dev/when-engineers-forget-to-teach</link>
+      <description>The more fluent we become, the easier it is to forget what it felt like to stutter.</description>
+      <guid isPermaLink="false">2950721d-8085-8050-a2f3-c9a78d8c0154</guid>
+      <pubDate>Thu, 23 Oct 2025 15:21:00 +0000</pubDate>
+      <enclosure url="https://shaynemcgregordev-be.netlify.app/.netlify/functions/notion-image?blockId=2950721d-8085-8050-a2f3-c9a78d8c0154" type="image/webp" />
+    </item>
+  </channel>
+</rss>

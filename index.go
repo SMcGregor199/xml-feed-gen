@@ -1,27 +1,17 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"log"
 
-type ghostType struct{
-	id int
-	name string
-	form string
-	types []string
-	category string
-	dexEntry string
-}
-
-var gengar = ghostType{
-	id: 94,
-	name: "Gengar",
-	form: "Normal",
-	types: []string{"Ghost", "Poison"},
-	category: "Shadow",
-	dexEntry: "The shadow of a wicked creature, Gengar is said to steal souls and trap them in dolls.",
-}
-
+	"shaynemcgregor.dev/xml-feed-gen/feed"
+)
 
 func main() {
-	
-	fmt.Println(blogDataEndPoint)
+	data, err := feed.FetchBlogDataBytes()
+	if err != nil {
+		log.Fatal(err)
+	}
+
+	fmt.Println(string(data))
 }

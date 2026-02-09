@@ -78,3 +78,6 @@ Temporary Items
 
 ### Code Specific Files
 geturl.go
+
+### Other Files
+.AGENTS.md
