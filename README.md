@@ -19,16 +19,19 @@ Go RSS generator for `shaynemcgregor.dev`.
 
 - This repo is not Netlify-configured.
 - It consumes the backend Netlify-hosted JSON endpoint.
-- `go run ./cmd/rssgen` writes a tracked artifact, so only run it when you intend to refresh RSS output.
+- This repo is experimental/prototype tooling and is not part of the live RSS workflow right now.
+- `go run ./cmd/rssgen` writes `cmd/rssgen/rss.xml`, which is prototype output and not authoritative for the public site.
+- The live RSS artifact is `notion2github-FE/public/rss.xml`.
+- This repo could be promoted into the live workflow later, but only through an explicit decision.
 
 ## Artifact And Generated File Cautions
 
-- `cmd/rssgen/rss.xml` is tracked and should be changed intentionally.
-- Treat any regenerated RSS file as a release artifact, not a routine temp file.
-- Avoid committing generated output unless you are intentionally updating the public feed.
+- `cmd/rssgen/rss.xml` is tracked prototype output and should be changed intentionally.
+- It is not the authoritative live RSS source.
+- Avoid committing generated output unless you are intentionally working on the prototype tooling.
 
 ## Relation To The Other Repos
 
 - Consumes blog JSON produced by `notion2github-BE`.
 - Shares the blog post contract with `notion2github-BE` and `notion2github-FE`.
-- Produces RSS XML used by the broader personal site system.
+- Produces prototype RSS XML used for experimentation, not the live public feed.
