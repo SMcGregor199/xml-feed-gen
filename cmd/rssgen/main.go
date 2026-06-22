@@ -4,6 +4,8 @@ import (
 	"encoding/json"
 	"fmt"
 	"log"
+	"os"
+	"time"
 
 	"shaynemcgregor.dev/xml-feed-gen/feed"
 )
@@ -19,11 +21,25 @@ func main() {
 		log.Fatal(err)
 	}
 
-	if err := feed.WriteRSSXML(posts); err != nil {
+	outputPath := "rss.xml"
+	if configured := os.Getenv("RSS_OUTPUT_PATH"); configured != "" {
+		outputPath = configured
+	}
+
+	config := feed.DefaultConfig()
+	config.BuildTime = time.Now().UTC()
+	if configured := os.Getenv("RSS_SITE_BASE_URL"); configured != "" {
+		config.SiteBaseURL = configured
+	}
+	if configured := os.Getenv("RSS_PUBLIC_URL"); configured != "" {
+		config.FeedURL = configured
+	}
+
+	if err := feed.WriteRSSXMLFile(outputPath, posts, config); err != nil {
 		log.Fatal(err)
 	}
 
-	fmt.Println("RSS generated at rss.xml")
+	fmt.Printf("RSS generated at %s\n", outputPath)
 }
 
 func fetchBlogData() ([]byte, error) {

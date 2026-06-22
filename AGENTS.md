@@ -12,8 +12,8 @@ Go RSS generator for `shaynemcgregor.dev`.
 ## Repo-Specific Cautions
 
 - Consumes backend blog JSON from `notion2github-BE`.
-- Generates experimental/prototype RSS XML and is not part of the live RSS workflow right now.
-- `notion2github-FE/public/rss.xml` is the live RSS artifact.
+- Generates production-ready RSS XML used by the production RSS workflow.
+- `notion2github-FE/public/rss.xml` is the tracked rollback fallback RSS artifact.
 - `cmd/rssgen/rss.xml` is tracked prototype output and is not authoritative.
 - Not Netlify-configured.
 - Do not inspect `.env` or secret files.
@@ -33,7 +33,7 @@ Go RSS generator for `shaynemcgregor.dev`.
 
 ## Forward-Look Note
 
-- `xml-feed-gen` may later be promoted into the live RSS workflow, but only through an explicit decision.
+- `xml-feed-gen` has been promoted into production-ready generation tooling. Production publishing and Netlify routing changes still require explicit approval.
 
 ## Final Handoff Expectations
 
